@@ -1,0 +1,75 @@
+name: eastnshop
+description: "East:Shop - Your Shopping Destination"
+publish_to: 'none'
+version: 0.1.1+18
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+  http: ^1.3.0
+  shared_preferences: ^2.5.3
+  connectivity_plus: ^6.0.5
+  smooth_page_indicator: ^1.2.1
+  file_picker: ^10.2.0
+  data_table_2: ^2.6.0
+  geolocator: ^14.0.2
+  place_picker_google: ^0.0.20
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  image_picker: ^1.0.7
+  permission_handler: ^11.3.1
+  geocoding: ^4.0.0
+  intl: ^0.19.0
+  url_launcher: ^6.3.1
+  share_plus: ^10.0.2
+  dropdown_button2: ^2.3.9
+  fan_carousel_image_slider: ^1.3.0
+  carousel_slider: ^5.1.1
+
+  location: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/ENS_Logo_1.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/ENS_Logo_1.png"
+    background_color: "#000000"
+    theme_color: "#EB1C23"
+  windows:
+    generate: true
+    image_path: "assets/ENS_Logo_1.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/ENS_Logo_1.png"
+
+flutter:
+  uses-material-design: true  
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
